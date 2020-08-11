@@ -33,4 +33,43 @@ public class UserCustomConnection extends
 		return new UserCustomResultSet(table, columns, resultSet, count);
 	}
 
+	@Override
+	public UserCustomResultSet query(boolean distinct, String table, String[] columns, String selection, String[] selectionArgs, String groupBy, String having, String orderBy) {
+		return null;
+	}
+
+	@Override
+	public UserCustomResultSet query(boolean distinct, String table, String[] columns, String[] columnsAs, String selection, String[] selectionArgs, String groupBy, String having, String orderBy) {
+		return null;
+	}
+
+	@Override
+	public UserCustomResultSet query(boolean distinct, String table, String[] columns, String selection, String[] selectionArgs, String groupBy, String having, String orderBy, String limit) {
+		return null;
+	}
+
+	@Override
+	public UserCustomResultSet query(boolean distinct, String table, String[] columns, String[] columnsAs, String selection, String[] selectionArgs, String groupBy, String having, String orderBy, String limit) {
+		return null;
+	}
+
+	@Override
+	public String querySQL(boolean distinct, String table, String[] columns, String selection, String groupBy, String having, String orderBy) {
+		return null;
+	}
+
+	@Override
+	public String querySQL(boolean distinct, String table, String[] columns, String[] columnsAs, String selection, String groupBy, String having, String orderBy) {
+		return null;
+	}
+
+	@Override
+	public String querySQL(boolean distinct, String table, String[] columns, String selection, String groupBy, String having, String orderBy, String limit) {
+		return null;
+	}
+
+	@Override
+	public String querySQL(boolean distinct, String table, String[] columns, String[] columnsAs, String selection, String groupBy, String having, String orderBy, String limit) {
+		return null;
+	}
 }
